@@ -4,7 +4,7 @@ This repository contains the complete codebase for a novel framework designed to
 
 Because data for these systems is inherently scarce, our approach introduces a systematic pipeline divided into two principal phases: **Data Generation** via physics-based simulation, and **Surrogate Training** for rapid state forecasting.
 
-`![Full Pipeline](figures/general_pipeline.jpg)`
+![Full Pipeline](figures/general_pipeline.jpg)
 
 ## Methodology Overview
 
