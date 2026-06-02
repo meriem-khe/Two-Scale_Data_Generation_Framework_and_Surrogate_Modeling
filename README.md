@@ -1,6 +1,6 @@
 # Two-Scale Data Generation Framework and Surrogate Modeling 
 
-This repository contains the complete codebase for a novel framework designed to address data scarcity in multiscale modeling. The core objective of this work is to overcome the high computational costs of traditional two-scale dynamical system simulations by enabling the training of highly efficient data-driven surrogate models.
+This repository contains the complete codebase for a framework designed to address data scarcity in multiscale modeling. The core objective of this work is to overcome the high computational costs of traditional two-scale dynamical system simulations by enabling the training of highly efficient data-driven surrogate models.
 
 Because data for these systems is inherently scarce, our approach introduces a systematic pipeline divided into two principal phases: **Data Generation** via physics-based simulation, and **Surrogate Training** for rapid state forecasting.
 
