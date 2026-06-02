@@ -30,8 +30,8 @@ The project is organized into dedicated directories within the main folder to en
 ├── macro_micro.py            # Macro/micro simulation script using FEM
 ├── macro_data.csv            # Generated macroscopic dataset using FEM
 ├── micro_sliding.csv         # Generated microscopic dataset using FEM
-├── noise/                    # Contains the script for correlated noise injection and figures of generated noise with the |                               updated datasets
-├── surrogate_models/         # Contains training scripts for the 4 surrogate models, with the training-ready macro        |                               datasets and the predictions obtained from each model
+├── noise/                    # Contains the script for correlated noise injection and figures of generated noise with the updated datasets
+├── surrogate_models/         # Contains training scripts for the 4 surrogate models, with the training-ready macro datasets and the predictions obtained from each model
 ├── figures/                  # Contains plots describing the approach
 ├── results.csv               # Contains surrogate models saved metrics
 └── README.md                 # Project overview and documentation
