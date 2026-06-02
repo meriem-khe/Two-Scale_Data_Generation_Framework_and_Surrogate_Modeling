@@ -27,11 +27,13 @@ Once the datasets are successfully generated, the pipeline moves to the machine 
 The project is organized into dedicated directories within the main folder to ensure a clean workflow:
 
 ```text
-├── data_generation/          # Scripts and FEM pipelines for macro/micro data generation
-├── preprocessing_noise/      # Scripts for correlated noise injection and data normalization
-├── surrogate_models/         # Training scripts for the 4 machine learning architectures
-├── figures/                  # Generated plots, performance evaluations, and loss curves
-├── results/                  # Saved model weights, metrics, and evaluation summaries
+├── macro_micro.py            # Macro/micro simulation script using FEM
+├── macro_data.csv            # Generated macroscopic dataset using FEM
+├── micro_sliding.csv         # Generated microscopic dataset using FEM
+├── noise/                    # Contains the script for correlated noise injection and figures of generated noise with the |                               updated datasets
+├── surrogate_models/         # Contains training scripts for the 4 surrogate models, with the training-ready macro        |                               datasets and the predictions obtained from each model
+├── figures/                  # Contains plots describing the approach
+├── results.csv               # Contains surrogate models saved metrics
 └── README.md                 # Project overview and documentation
 
 ```
